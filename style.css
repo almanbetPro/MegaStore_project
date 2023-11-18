@@ -1,0 +1,162 @@
+body {
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.modal {
+    display:flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    width: 640px;
+    height: 328px;
+
+}
+ 
+.modal_form {
+    display:flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    width: 640px;
+    height: 576px;
+}
+
+.close__icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.modal h2, .modal_form h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.modal p {
+    font-size: 14px;
+    color:#000000;
+    font-weight: 400;
+    color: #A9A9A9;
+}
+
+.code-text {
+    color:#A9A9A9;
+    text-align: center;
+}
+
+.error-text{
+    color: #FF3B30 !important;
+    font-size: 14px;
+    align-self: center;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row input, .input-row select {
+    width: calc(100% / 3 - 10px);
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+}
+
+.input-row:last-child {
+    margin-right: 0;
+}
+
+.code__inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.code-box {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DADADA;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+
+.code-box[value=3]{
+    color: #FF3B30;
+}
+
+.date-field{
+    width: calc(33% - 10px);
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    margin-right: 10px; 
+}
+
+.address-field{
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+
+.input__field {
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    width: 608px;
+    height: 48px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 48px;
+    right: 144px;
+    left: 144px;
+}
+
+.submit__btn {
+    width: 352px;
+    height: 48px;
+    padding: 10px 15px;
+    background-color: #232529;
+    color: #fff;
+    align-self: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0,2s;
+}
+
+.submit__btn:hover {
+    background-color: #555;
+}
+
