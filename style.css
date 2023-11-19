@@ -31,6 +31,17 @@ body {
     height: 576px;
 }
 
+.modal_income {
+    display:flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    width: 640px;
+    height:608px ;
+}
+
 .close__icon {
     width: 24px;
     height: 24px;
@@ -40,7 +51,16 @@ body {
     cursor: pointer;
 }
 
-.modal h2, .modal_form h2 {
+.accepted__icon {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 130px;
+    right: 310px;
+}
+
+.modal h2, .modal_form h2, .modal_income h2 {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 20px;
